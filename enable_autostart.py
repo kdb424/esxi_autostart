@@ -2,6 +2,8 @@
 """
 Enables autostarting of VM's on ESXI over SSH
 """
+import sh
+
 ip = ''
 enable = ''
 
